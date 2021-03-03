@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Portfolio, Petar, Stosic, Photography">
+    <link rel="icon" href="img/favicon.ico" type="icon/ico"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Signika:300,400,600&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <meta name="description" content="My name is Petar Stosic and welcome to my Portfolio, here you can find my Skills and browse my Projects.">
+    <meta name="author" content="Petar Stosic">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Stolo Portfolio</title>
+</head>
+<body class="disable-select">
+    <header>
+        <div id="top" class="flexRow"> 
+            <div>
+                <p><a href="#"><span>Stolo Photography</span></a></p>
+            </div>
+            <nav>
+                <ul class="flexRow">
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="hiddenNav">
+                <input type="checkbox" id="fakeNav" name="fakeNav"/>
+                <div id="showNav">
+                    <ul >
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <label for="fakeNav">
+                    <i class="fas fa-bars"></i>
+                </label>
+            </div>
+        </div>
+        <div id="bottom">
+            <h1>WELCOME TO STOLO PHOTOGRAPHY</h1>
+        </div>
+    </header>
+    <main>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div id="skillsList">
+                <div class="skill">
+                    <i class="fas fa-camera-retro"></i>
+                    <div class="progress">
+                        <div class="skill1">
+                            <span class="percent">93%</span>
+                        </div>
+                    </div>
+                    <h3>Photography</h3>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-video"></i>
+                    <div class="progress">
+                        <div class="skill2">
+                            <span class="percent">59%</span>
+                        </div>
+                    </div>
+                    <h3>Videography</h3>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-fast-forward"></i>
+                    <div class="progress">
+                        <div class="skill3">
+                            <span class="percent">75%</span>
+                        </div>
+                    </div>
+                    <h3>Software</h3>
+                </div>
+                <div class="skill"> 
+                    <i class="fas fa-pen"></i>
+                    <div class="progress">
+                        <div class="skill4">
+                            <span class="percent">86%</span>
+                        </div>
+                    </div>
+                    <h3>Editing</h3>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <article id="projectsList" class="flexRow">
+                <figure class="projectsItem">
+                    <img src="img/drums.jpg" alt="drums">
+                    <figcaption>
+                        <h3>Ambient drums</h3>
+                        <p><span>(Studio Sova)</span>
+                    </figcaption>
+                </figure>
+                <figure class="projectsItem">
+                    <img src="img/crnoJezero.jpg" alt="black lake">
+                    <figcaption>
+                        <h3>Black Lake</h3>
+                        <p><span>(Black Lake, Montenegro)</span>
+                    </figcaption>
+                </figure>
+                <figure class="projectsItem">
+                    <img src="img/vespa.jpg" alt="vespa">
+                    <figcaption>
+                        <h3>Vespa</h3>
+                        <p><span>(Kotor, Montenegro)</span>
+                    </figcaption>
+                </figure>
+                <figure class="projectsItem">
+                    <img src="img/crkva.jpg" alt="church">
+                    <figcaption>
+                        <h3>Symmetry church</h3>
+                        <p><span>(Novi Sad, Serbia)</span>
+                    </figcaption>
+                </figure>
+                <figure class="projectsItem">
+                    <img src="img/ATW.jpg" alt="ATW">
+                    <figcaption>
+                        <h3>ATW</h3>
+                        <p><span>(Kopaonik, Serbia)</span>
+                    </figcaption>
+                </figure>
+                <figure class="projectsItem">
+                    <img src="img/tjentiste.jpg" alt="Tjentiste">
+                    <figcaption>
+                        <h3>A Monument to Fallen Fighters</h3>
+                        <p><span>(Tjentiste, Republic of Serbia)</span> <br>
+                    </figcaption>
+                </figure>
+            </article>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <article id="servicesHolder">
+                <div class="service">
+                    <i class="fas fa-camera"></i>
+                    <h3>Photography</h3>
+                    <p>Sessions</p>
+                    <p>Editing</p>
+                    <p>Coloring</p>
+                    <p>Printing</p>
+                    <p>Matting and Framing</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-video"></i>
+                    <h3>Video</h3>
+                    <p>Advertisement Videography</p>
+                    <p>Corporate Videography</p>
+                    <p>Event Videography</p>
+                    <p>Animation Video Production</p>
+                    <p>Branded Content</p>
+                </div>
+            </article>
+        </section>
+        <section id="about">
+            <h2>About me</h2>
+            <div id="aboutMe">
+                <div id="aboutMePro" >
+                    <img src="img/profile.jpg" alt="Petar Stosic profile picture"/>
+                </div>
+                <p>My name is Petar Stosic. Serbian-based photographer.What motivates me above all else, is to try and ‘involve’ the viewer in the image – as though the viewer is seeing what I'm seeing. It’s this ‘caught in the moment’ style that differentiates my work, making it almost tangible. Much like the athletes I often shoots, I (a crossfit enthusiast) pushes himself hard and applies the same intensity, industry and endeavor to all my projects </p>
+                </div>
+        </section>
+        <div id="contact">
+			<h2>Contact</h2>
+			<div id="form">
+				<div class="column">
+					<p><i class="far fa-envelope"></i> stolo&#46;photography&#64;gmail&#46;rs</p>
+					<p><i class="fas fa-phone-alt"></i> +381 69 1111 666</p>
+				</div>
+				<div class="column">
+					<div class="form-group">
+						<div class="form ">
+							<input placeholder="Name" type="text" name="name" required=""/>
+						</div>
+						<div class="form ">
+							<input placeholder="Subject" type="text" name="subject" required=""/>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="form">
+							<input placeholder="Email" type="email" name="email" required=""/>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="text form">
+							<textarea placeholder="Your Message" type="text" name="message"></textarea>
+						</div>
+					</div>
+					<div class="btn">
+						<a href="#">
+							<input class="button" type="submit" value="Send message" id="submit" value="SUBMIT"/>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+    </main>
+    <footer class="flexRow">
+        <div id="social" >
+            <ul>
+                <li class="facebook"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="instagram"><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li class="twitter"><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </div>
+        <div id="copyright">
+            <p>Copyright &copy; Stolo 2021.</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="css/style.scss" target="_blank">scss</a></li>
+                <li><a href="css/style.css" target="_blank">css</a></li>
+                <li><a href="sitemap.xml" target="_blank">sitemap</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
